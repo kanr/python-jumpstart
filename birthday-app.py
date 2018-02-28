@@ -38,4 +38,10 @@ def main():
     number_of_days = compute_days_between_dates(bday, today)
     print_birthday_information(number_of_days)
 
-main()
+#it is possible to call a function by invoking its definition
+#main()
+
+# this is the prefered way to call the main function, runs the code 
+# directly instead of importing it for compilation by another process.
+if __name__=='__main__':
+    main()
